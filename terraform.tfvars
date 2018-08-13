@@ -1,6 +1,7 @@
 access_key = ""
 secret_key = ""
 region = "cn-hangzhou"
+image_id = "ubuntu_16_0402_64_20G_alibase_20180409.vhd"
 
 # Region	            City	        Region ID       Number of Zones
 #China North 1	        Qingdao	        cn-qingdao	    2
