@@ -7,7 +7,7 @@ resource "alicloud_vpc" "vpc" {
 resource "alicloud_vswitch" "vswitch-a" {
   vpc_id = "${alicloud_vpc.vpc.id}"
   cidr_block        = "10.0.0.0/24"
-  availability_zone = "${var.region}-a"
+  availability_zone = "${var.region}-b"
 }
 # Correlates to an AWS Security Group
 resource "alicloud_security_group" "default" {
